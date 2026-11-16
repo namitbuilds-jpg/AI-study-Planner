@@ -1,34 +1,30 @@
-# 🎓 AI Study Timer – AI Study Planner
+An intelligent web based study management application developed using Python, Flask, HTML, CSS, JavaScript and Machine Learning. The AI Study Timer helps students to organize their academic schedules, manage study sessions, monitor productivity, and track their learning progress via an interactive dashboard.
 
-An intelligent, web-based study management application built using Python, Flask, HTML, CSS, JavaScript and Machine Learning. The AI Study Timer helps students organise their academic schedules, manage study sessions, monitor productivity and track their learning progress through an interactive dashboard.
+It brings together study planning, time management, progress tracking and AI-powered help in a single platform.
 
-The project combines study planning, time management, progress monitoring and AI-powered assistance in one platform.
-
-## ✨ Key Features
+✨ Main Features
 
 ### 1. 📊 Student Dashboard
 - Interactive dashboard for accessing important study information.
 - Overview of study activities and productivity.
 - Easy navigation between different sections of the application.
 
-### 2. ⏱️ Pomodoro Study Timer
-- Dedicated timer for managing focused study sessions.
-- Helps students structure their study time and breaks.
-- JavaScript-powered timer functionality.
+### 2. ⏱️ Pomodoro Timer for Learning
+• Timer to help you concentrate on your study sessions.
+- Helps students to schedule their study time and breaks.
+• Timer functionality using JavaScript.
 
-### 3. 🤖 AI Study Assistance
-- AI-powered study planning functionality.
-- Machine Learning model integrated into the application.
-- Helps students with study-related recommendations and planning.
+### 3. 🤖  Help with AI Study
+- AI study plan feature.- Integration of machine learning model into the application.
+- Assists students in study related recommendations and planning.
 
-### 4. 📅 Study Calendar
-- Dedicated calendar interface for viewing and organising study activities.
-- Helps students manage their academic schedules.
+### 4. 📅 Exam Dates- Calendar interface dedicated to viewing and organizing study activities.
+- Assists students with their academic timetables.
 
-### 5. 📈 Progress Tracking
-- Monitor study progress through a dedicated progress section.
-- Visualise productivity and study-related information.
-- Interactive charts for presenting relevant data.
+### 5. 📈 Tracking Progress
+- Keep track of study progress in a dedicated progress section.
+- Visualize study and productivity related information.
+- Interactive graphs show relevant data.
 
 ### 6. 🎙️ Voice Features
 - Includes JavaScript-based voice functionality.
@@ -63,8 +59,8 @@ Follow these instructions to run the AI Study Timer on your computer.
 ### Step 1: Download the project
 
 1. Open the GitHub repository.
-2. Click the green **Code** button.
-3. Select **Download ZIP**.
+2. Click the green Code button.
+3. Select Download ZIP.
 4. Extract the downloaded ZIP file.
 5. Open the extracted project folder.
 
@@ -187,12 +183,6 @@ Students often struggle with managing their study schedules, maintaining consist
 The AI Study Timer aims to address these challenges by combining time management, study planning, progress tracking and AI-assisted functionality in a single web application.
 
 It is designed to make studying more organised, structured and productive.
-
-## 🌐 Live Application
-
-The project has also been deployed online:
-
-**[Open AI Study Planner](https://namit.pythonanywhere.com/login)**
 
 ## 👨‍💻 Developer
 
