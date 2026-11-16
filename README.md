@@ -1,4 +1,4 @@
-It is an intelligent study management application developed using Python, Flask, HTML, CSS, JavaScript and Machine Learning.It helps students to organize their academic schedules, manage study sessions, monitor productivity, and track their learning progress via an interactive dashboard.
+It is an intelligent study management application developed using Python, Flask, HTML, CSS, JavaScript and Machine Learning with an inbuilt AI model to help students manage their studies. It helps students to organize their academic schedules, manage study sessions, monitor productivity, and track their learning progress via an interactive dashboard.
 
 It brings together study planning, time management, progress tracking and AI-powered help in a single platform.
 
