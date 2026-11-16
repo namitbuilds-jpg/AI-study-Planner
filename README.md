@@ -1,24 +1,24 @@
-An intelligent web based study management application developed using Python, Flask, HTML, CSS, JavaScript and Machine Learning. The AI Study Timer helps students to organize their academic schedules, manage study sessions, monitor productivity, and track their learning progress via an interactive dashboard.
+It is an intelligent study management application developed using Python, Flask, HTML, CSS, JavaScript and Machine Learning.It helps students to organize their academic schedules, manage study sessions, monitor productivity, and track their learning progress via an interactive dashboard.
 
 It brings together study planning, time management, progress tracking and AI-powered help in a single platform.
 
 ✨ Main Features
 
 ### 1. 📊 Student Dashboard
-- Interactive dashboard for accessing important study information.
+- A dashboard for accessing important study information.
 - Overview of study activities and productivity.
 - Easy navigation between different sections of the application.
 
 ### 2. ⏱️ Pomodoro Timer for Learning
-• Timer to help you concentrate on your study sessions.
-- Helps students to schedule their study time and breaks.
-• Timer functionality using JavaScript.
+• Timer to help you focus on your study sessions.
+- Guides students to schedule their study time and breaks.
+• Timer functionality develped using JavaScript.
 
 ### 3. 🤖  Help with AI Study
-- AI study plan feature.- Integration of machine learning model into the application.
-- Assists students in study related recommendations and planning.
+- AI study plan feature.-Integrates machine learning model into the application.
+- Helps students in study related recommendations and planning.
 
-### 4. 📅 Exam Dates- Calendar interface dedicated to viewing and organizing study activities.
+### 4. 📅 Exam Dates- Calendar interface for viewing and managing study activities.
 - Assists students with their academic timetables.
 
 ### 5. 📈 Tracking Progress
@@ -26,18 +26,18 @@ It brings together study planning, time management, progress tracking and AI-pow
 - Visualize study and productivity related information.
 - Interactive graphs show relevant data.
 
-### 6. 🎙️ Voice Features
+### 6. 🎙️ Voice Integration
 - Includes JavaScript-based voice functionality.
 - Provides voice-related interaction capabilities.
 
-### 7. 🔐 User Authentication
+### 7. 🔐 User Log-in
 - Login and registration pages.
 - Separate student-facing and administrative interfaces.
 - Flask-based application structure.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Items Used
 
 | Technology | Purpose |
 |---|---|
@@ -52,11 +52,11 @@ It brings together study planning, time management, progress tracking and AI-pow
 
 ---
 
-## 🚀 How to Install and Run the Project
+## 🚀 Steps Install and Run the Project
 
-Follow these instructions to run the AI Study Timer on your computer.
+Follow these Steps to run the AI Study Timer on your computer.
 
-### Step 1: Download the project
+### Step 1: Download the project through repository
 
 1. Open the GitHub repository.
 2. Click the green Code button.
@@ -64,7 +64,7 @@ Follow these instructions to run the AI Study Timer on your computer.
 4. Extract the downloaded ZIP file.
 5. Open the extracted project folder.
 
-### Step 2: Open the project in VS Code
+### Step 2: Open the project in VS Code or the terminal
 
 1. Open Visual Studio Code.
 2. Select **File → Open Folder**.
@@ -73,7 +73,7 @@ Follow these instructions to run the AI Study Timer on your computer.
 
    `Ctrl + Shift + ~`
 
-### Step 3: Navigate to the application folder
+### Step 3: Go to the application folder
 
 In the terminal, execute:
 
@@ -107,7 +107,7 @@ Activate the virtual environment.
 .venv\Scripts\activate.bat
 ```
 
-### Step 5: Install the dependencies
+### Step 5: Download the dependencies
 
 Run:
 
@@ -117,7 +117,7 @@ pip install -r requirements.txt
 
 This installs the Python packages required by the application.
 
-### Step 6: Start the application
+### Step 6: Download the application
 
 Run:
 
@@ -133,13 +133,13 @@ Open your browser and visit:
 
 `http://127.0.0.1:5000`
 
-You should now be able to access the AI Study Timer locally.
+You should now be able to use the AI Study Timer locally.
 
-Register or log in using the application's authentication interface. Administrative access depends on the admin account configured in the application.
+Log in using the application's authentication interface. Administrative access depends on the admin account configured in the application.
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Architecture
 
 ```text
 AI_Study_Planner_with_admin_panel/
@@ -176,7 +176,7 @@ AI_Study_Planner_with_admin_panel/
         └── register.html
 ```
 
-## 🎯 Why This Project?
+## 🎯 What makes this project important?
 
 Students often struggle with managing their study schedules, maintaining consistency and understanding their academic productivity.
 
