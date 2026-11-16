@@ -1,0 +1,8 @@
+Flask
+pandas
+numpy
+scikit-learn
+Werkzeug
+matplotlib
+Flask-WTF
+Flask-Limiter

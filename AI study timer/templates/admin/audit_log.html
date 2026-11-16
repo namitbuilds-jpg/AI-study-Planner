@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Admin · Audit Log{% endblock %}
+
+{% block content %}
+<div class="header-section">
+    <div>
+        <div class="welcome-title">Audit Log</div>
+        <div class="date-indicator">Every admin action, in order</div>
+    </div>
+    <a href="/admin" class="btn-secondary" style="width:auto; padding: 12px 20px; text-decoration:none;">← Dashboard</a>
+</div>
+
+<div class="glass-card">
+    <div class="admin-table-wrapper">
+        <table class="admin-table">
+            <thead><tr><th>When</th><th>Admin</th><th>Action</th><th>Target User</th><th>Details</th></tr></thead>
+            <tbody>
+                {% for entry in entries %}
+                <tr>
+                    <td class="text-muted-small">{{ entry.created_at }}</td>
+                    <td>{{ entry.admin_username }}</td>
+                    <td>{{ entry.action }}</td>
+                    <td>{{ entry.target_username or '—' }}</td>
+                    <td class="text-muted-small">{{ entry.details or '' }}</td>
+                </tr>
+                {% else %}
+                <tr><td colspan="5" class="text-muted-small">No actions logged yet.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

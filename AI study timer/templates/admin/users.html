@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %}Admin · Users{% endblock %}
+
+{% block content %}
+<div class="header-section">
+    <div>
+        <div class="welcome-title">Users</div>
+        <div class="date-indicator">{{ total }} account{{ 's' if total != 1 else '' }}</div>
+    </div>
+</div>
+
+<div class="glass-card">
+    <form class="admin-search-bar" action="/admin/users" method="GET">
+        <input type="text" name="q" class="form-input" placeholder="Search by username or name..." value="{{ search }}">
+        <button type="submit" class="btn-primary">Search</button>
+        {% if search %}<a href="/admin/users" class="btn-secondary" style="text-decoration:none; display:flex; align-items:center;">Clear</a>{% endif %}
+    </form>
+
+    <div class="admin-table-wrapper">
+        <table class="admin-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Username</th>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th>Streak</th>
+                    <th>Status</th>
+                    <th>Joined</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for u in users %}
+                <tr style="cursor:pointer;" onclick="window.location='/admin/users/{{ u.id }}'">
+                    <td>{{ u.id }}</td>
+                    <td>{{ u.username }}</td>
+                    <td>{{ u.name }}</td>
+                    <td>{{ u.student_class }}</td>
+                    <td>{{ u.streak }}</td>
+                    <td>
+                        {% if u.is_disabled %}<span class="badge badge-disabled">Disabled</span>{% else %}<span class="badge badge-active">Active</span>{% endif %}
+                        {% if u.is_admin %}<span class="badge badge-admin">Admin</span>{% endif %}
+                    </td>
+                    <td class="text-muted-small">{{ u.created_at or '—' }}</td>
+                </tr>
+                {% else %}
+                <tr><td colspan="7" class="text-muted-small">No users found.</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    {% if total_pages > 1 %}
+    <div class="admin-pagination">
+        {% for p in range(1, total_pages + 1) %}
+            {% if p == page %}
+                <span class="current">{{ p }}</span>
+            {% else %}
+                <a href="/admin/users?page={{ p }}{% if search %}&q={{ search }}{% endif %}">{{ p }}</a>
+            {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
